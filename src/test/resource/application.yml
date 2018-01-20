@@ -1,0 +1,8 @@
+ribbon:
+  eureka:
+    enabled: false
+
+externalApi:
+  ribbon:
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    listOfServers: localhost:9000

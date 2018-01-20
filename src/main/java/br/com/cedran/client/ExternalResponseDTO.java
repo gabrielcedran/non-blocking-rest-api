@@ -1,4 +1,4 @@
-package br.com.cedran.dto;
+package br.com.cedran.client;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RequestDTO {
+public class ExternalResponseDTO {
 
     private String name;
 
